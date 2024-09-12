@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import PitCrew from "../assets/projects/PitCrew.png";
+import currencyConvert from "../assets/projects/currencyConvert.png"
+import foodDel from "../assets/projects/foodDel.jpg"
+import studentManage from "../assets/projects/studentmanage.png"
+import keells from "../assets/projects/keells.png"
 
 export const HERO_CONTENT = `I am an enthusiastic undergraduate who is passionate about web development, mobile development and software engineering. I am eager to leverage my skills in to build user-friendly and interactive web applications and mobile applications. As an individual who is keen on learning from practice, I have already given my contribution to multiple projects. I'm a fast learner and a team player, always looking for opportunities to contribute to challenging projects and expand my knowledge in this ever-evolving field.`;
 
@@ -10,14 +11,15 @@ export const ABOUT_TEXT = `I am an undergraduate in Computing and Information Sy
 export const PROJECTS = [
   {
     title: "PitCrew - Capstone Project",
-    image: project1,
+    image: PitCrew,
     description:
       "A mobile app developed for a university capstone project that connects vehicle owners with mechanics, garage owners, and spare parts sellers. It also helps users log and manage vehicle maintenance records.",
     technologies: ["React Native", "Firebase", "Node.js", "Express.js", "REST API"],
+    sourceCode: "https://github.com/ChethanaWijesinghe10/PitCrew"
   },
   {
     title: "Currency Converter Web",
-    image: project3,
+    image: currencyConvert,
     description:
       "A platform enabling users to convert currencies with access to real-time and historical exchange rates.",
     technologies: ["React", "Node.js", "Express.js", "REST API"],
@@ -26,7 +28,7 @@ export const PROJECTS = [
   },
   {
     title: "Currency Converter Mobile App",
-    image: project2,
+    image: currencyConvert,
     description:
       "A mobile app that allows users to convert currencies using real-time and historical exchange rates.",
     technologies: ["React Native", "Node.js", "Express.js", "REST API"],
@@ -34,15 +36,23 @@ export const PROJECTS = [
   },
   {
     title: "Food Delivery Web",
-    image: project4,
+    image: foodDel,
     description:
       "A platform for restaurants to display menus, manage orders, and track them. Features include user cart and order tracking, an admin panel, and Stripe payment integration.",
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "Stripe"],
     sourceCode: "https://github.com/Chandupa2001/Food-Delivery-Web"
   },
   {
+    title: "Student Management System",
+    image: studentManage,
+    description:
+      " A system for schools that can add students teachers and entroll them into courses. ",
+    technologies: ["Laravel", "MySQL"],
+    sourceCode: "https://github.com/Chandupa2001/Student-Management-System"
+  },
+  {
     title: "Keells Self Checkout Mobile App (Ongoing)",
-    image: project2,
+    image: keells,
     description:
       " A mobile app that enables users to scan items, view total prices, and make payments directly, eliminating checkout lines. ",
     technologies: ["React Native", "Expo", "Firebase", "Node.js", "Express.js", "Stripe"],
