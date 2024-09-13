@@ -46,7 +46,7 @@ export const PROJECTS = [
     title: "Student Management System",
     image: studentManage,
     description:
-      " A system for schools that can add students teachers and entroll them into courses. ",
+      " A System for admins to manage students, teachers, courses, and batches, with features for enrollment and streamlined course administration. ",
     technologies: ["Laravel", "MySQL"],
     sourceCode: "https://github.com/Chandupa2001/Student-Management-System"
   },
