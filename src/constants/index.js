@@ -14,7 +14,8 @@ export const PROJECTS = [
     image: PitCrew,
     description:
       "A mobile app developed for a university capstone project that connects vehicle owners with mechanics, garage owners, and spare parts sellers. It also helps users log and manage vehicle maintenance records.",
-    technologies: ["React Native", "Firebase", "Node.js", "Express.js", "REST API"],
+    technologies: ["React Native", "Firebase", "Node.js", "Express.js", "API"],
+    
     sourceCode: "https://github.com/ChethanaWijesinghe10/PitCrew"
   },
   {
@@ -22,7 +23,7 @@ export const PROJECTS = [
     image: currencyConvert,
     description:
       "A platform enabling users to convert currencies with access to real-time and historical exchange rates.",
-    technologies: ["React", "Node.js", "Express.js", "REST API"],
+    technologies: ["React", "Node.js", "Express.js", "API"],
     sourceCode: "https://github.com/Chandupa2001/Currency-Converter-Web"
     
   },
@@ -31,7 +32,7 @@ export const PROJECTS = [
     image: currencyConvert,
     description:
       "A mobile app that allows users to convert currencies using real-time and historical exchange rates.",
-    technologies: ["React Native", "Node.js", "Express.js", "REST API"],
+    technologies: ["React Native", "Node.js", "Express.js", "API"],
     sourceCode: "https://github.com/Chandupa2001/Currency-Converter-Web"
   },
   {
