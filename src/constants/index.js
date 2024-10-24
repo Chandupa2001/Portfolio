@@ -1,8 +1,9 @@
 import PitCrew from "../assets/projects/PitCrew.png";
 import currencyConvert from "../assets/projects/currencyConvert.png"
 import foodDel from "../assets/projects/foodDel.jpg"
-import studentManage from "../assets/projects/studentmanage.png"
+import studentManage from "../assets/projects/TuneCraft.png"
 import keells from "../assets/projects/keells.png"
+import currencyConvertWeb from "../assets/projects/currencyConvertWeb.png"
 
 export const HERO_CONTENT = `I am an enthusiastic undergraduate who is passionate about web development, mobile development and software engineering. I am eager to leverage my skills in to build user-friendly and interactive web applications and mobile applications. As an individual who is keen on learning from practice, I have already given my contribution to multiple projects. I'm a fast learner and a team player, always looking for opportunities to contribute to challenging projects and expand my knowledge in this ever-evolving field.`;
 
@@ -20,7 +21,7 @@ export const PROJECTS = [
   },
   {
     title: "Currency Converter Web",
-    image: currencyConvert,
+    image: currencyConvertWeb,
     description:
       "A platform enabling users to convert currencies with access to real-time and historical exchange rates.",
     technologies: ["React", "Node.js", "Express.js", "API"],
