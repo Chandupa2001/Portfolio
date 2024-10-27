@@ -33,8 +33,8 @@ const Hero = () => {
                             {HERO_CONTENT}
                         </motion.p>
                         <motion.a
-                            // href={cvFile}
-                            href="https://drive.google.com/drive/folders/1zgB-IU_ss6hOFUIkgu5rTyoGm0jIDh76?usp=sharing"
+                            href={cvFile}
+                            // href="https://drive.google.com/drive/folders/1zgB-IU_ss6hOFUIkgu5rTyoGm0jIDh76?usp=sharing"
                             download
                             variants={container(1)}
                             initial="hidden"
