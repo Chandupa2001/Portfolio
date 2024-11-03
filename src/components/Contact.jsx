@@ -52,7 +52,7 @@ const Contact = () => {
           <img className="w-9" src={linkedin} alt="Linkedin Icon" />
           <a
             className="text-lg font-normal"
-            href="https://www.linkedin.com/in/chandupa-ranawaka-1502a1249/"
+            href="https://linkedin.com/in/%20chandupa-ranawaka-1502a1249"
           >
             Chandupa Ranawaka
           </a>
