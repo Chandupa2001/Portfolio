@@ -20,6 +20,30 @@ export const PROJECTS = [
     sourceCode: "https://github.com/ChethanaWijesinghe10/PitCrew"
   },
   {
+    title: "Keells Self Checkout Mobile App",
+    image: keells,
+    description:
+      " A mobile app that enables users to scan items, view total prices, and make payments directly, eliminating checkout lines. ",
+    technologies: ["React Native", "Expo", "Firebase", "Node.js", "Express.js", "Stripe"],
+    sourceCode: "https://github.com/Chandupa2001/Keells-Self-Checkout-App"
+  },
+  {
+    title: "Food Delivery Web",
+    image: foodDel,
+    description:
+      "A platform for restaurants to display menus, manage orders, and track them. Features include user cart and order tracking, an admin panel, and Stripe payment integration.",
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Stripe"],
+    sourceCode: "https://github.com/Chandupa2001/Food-Delivery-Web"
+  },
+  {
+    title: "TuneCraft - Student Management System",
+    image: studentManage,
+    description:
+      " A System for admins to manage students, teachers, courses, and batches, with features for enrollment and streamlined course administration. ",
+    technologies: ["React", "Node.js","Express.js","MongoDB","API"],
+    sourceCode: "https://github.com/Chandupa2001/Student-Management-System"
+  },
+  {
     title: "Currency Converter Web",
     image: currencyConvertWeb,
     description:
@@ -35,29 +59,5 @@ export const PROJECTS = [
       "A mobile app that allows users to convert currencies using real-time and historical exchange rates.",
     technologies: ["React Native", "Node.js", "Express.js", "API"],
     sourceCode: "https://github.com/Chandupa2001/Currency-Converter-Web"
-  },
-  {
-    title: "Food Delivery Web",
-    image: foodDel,
-    description:
-      "A platform for restaurants to display menus, manage orders, and track them. Features include user cart and order tracking, an admin panel, and Stripe payment integration.",
-    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Stripe"],
-    sourceCode: "https://github.com/Chandupa2001/Food-Delivery-Web"
-  },
-  {
-    title: "Student Management System",
-    image: studentManage,
-    description:
-      " A System for admins to manage students, teachers, courses, and batches, with features for enrollment and streamlined course administration. ",
-    technologies: ["Laravel", "MySQL"],
-    sourceCode: "https://github.com/Chandupa2001/Student-Management-System"
-  },
-  {
-    title: "Keells Self Checkout Mobile App (Ongoing)",
-    image: keells,
-    description:
-      " A mobile app that enables users to scan items, view total prices, and make payments directly, eliminating checkout lines. ",
-    technologies: ["React Native", "Expo", "Firebase", "Node.js", "Express.js", "Stripe"],
-    sourceCode: "https://github.com/Chandupa2001/Keells-Self-Checkout-App"
   },
 ];
