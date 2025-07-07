@@ -38,7 +38,7 @@ const Contact = () => {
           className="flex items-center gap-4 md:gap-5"
         >
           <img className="w-7 md:w-9" src={gmail} alt="Email Icon" />
-          <a className="text-sm md:text-lg font-normal" href="mailto:chanduparanawaka2001@email.com">
+          <a className="text-sm md:text-lg font-normal" href="mailto:chanduparanawaka2001@gmail.com">
             chanduparanawaka2001@gmail.com
           </a>
         </motion.li>
